@@ -5,13 +5,13 @@ import time
 
 tiempos = Lista()
 
-for i in range(1, 2):
+for i in range(1, 6):
     total_tiempo_quick = 0
 
     for j in range(10):
         lista = Lista()
 
-        for j in range(750):
+        for j in range(250 * i):
             lista.insertar(random.randint(0, 100000))
 
         print("Lista generada")
